@@ -1,8 +1,8 @@
 import sys
 import pexpect
 from flask import Flask
-switch_un = "none"
-switch_pw = "none"
+switch_un = "cscworks"
+switch_pw = "kerner2"
 
 def interfacechange(switch_un,switch_pw,switchname,fullinterface,command):
   try:
@@ -19,11 +19,11 @@ def interfacechange(switch_un,switch_pw,switchname,fullinterface,command):
      child.expect('\(config-if\)#')
      child.sendline("%s" % command)
      child.expect('\(config-if\)#')
-     return "{success : %s - %s}" % (switchname,fullinterface)
+     return "{\"success\": {\"%s\" :  \"%s\"}}" % (switchname,fullinterface)
   except pexpect.TIMEOUT:
-     return "{error : switch could not be reached}"
+     return "{\"error\" : \"system could not be reached\"}"
   except pexpect.EOF:
-     return "{error : switch could not be reached}"
+     return "{\"error\" : \"system could not be reached\"}"
  
  
 app = Flask(__name__)
@@ -50,4 +50,3 @@ def interfaceenablelong(switchname,interface,subport,port):
 @app.errorhandler(404)
 def page_not_found(error):
     return "{error : no valid API call}", 404
-
