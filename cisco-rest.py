@@ -1,8 +1,8 @@
 import sys
 import pexpect
 from flask import Flask
-switch_un = "cscworks"
-switch_pw = "kerner2"
+switch_un = "whatever"
+switch_pw = "youhave"
 app = Flask(__name__)
 
 @app.route('/api/v1/')
