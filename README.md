@@ -20,7 +20,7 @@ Start the cisco-rest daemon
 # flask run --host 0.0.0.0
 ```
 ## API documentation
-[Link to API documentation](https://pages.github.com/ccie32305/cisco-rest/API.md).
+[Link to API documentation](https://github.com/ccie32305/cisco-rest/blob/master/API.md).
 
 ## Changelog
 
