@@ -6,8 +6,9 @@
 
 * **URL**
 
-  /api/v1/interfaceenable/<switchname>/<interface>/<port>
-  /api/v1/interfaceenable/<switchname>/<interface>/<submodule>/<port>
+  /api/v1/interfaceenable/\<switchname\>/\<interface\>/\<port\>
+  
+  /api/v1/interfaceenable/\<switchname\>/\<interface\>/\<submodule\>/\<port\>
   
 
 * **Method:**
