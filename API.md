@@ -48,8 +48,6 @@
       }
     });
   ```
-  
-  # API documentation
 
 **Shutdown Interface**
 ----
