@@ -9,9 +9,9 @@ At the moment these capabilities are only availble on high-end routers and switc
 The current provided SDN controllers are limited in capabilities.
 
 ## Prerequisites
-Python
-Flask
-Pexpect
+- Python
+- Flask
+- Pexpect
 
 ## Usage
 Start the cisco-rest daemon
