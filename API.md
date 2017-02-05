@@ -40,7 +40,7 @@
 
   ```javascript
     $.ajax({
-      url: "/api/v1/interfaceenable/deswitch01/GigabitEthernet0/1",
+      url: "/api/v1/interface-enable/deswitch01/GigabitEthernet0/1",
       dataType: "json",
       type : "GET",
       success : function(r) {
@@ -89,7 +89,7 @@
 
   ```javascript
     $.ajax({
-      url: "/api/v1/interfaceshutdown/deswitch01/GigabitEthernet0/1",
+      url: "/api/v1/interface-shutdown/deswitch01/GigabitEthernet0/1",
       dataType: "json",
       type : "GET",
       success : function(r) {
