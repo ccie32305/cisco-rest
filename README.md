@@ -25,3 +25,10 @@ Start the cisco-rest daemon
 ## Changelog
 
 v0.1 First version to provide a REST API for simple enable/shutdown of interfaces without any basic failure checks
+
+
+## Wishlist
+- Authentication or REST API Calls
+- Access management (specific devices for specific users)
+- Change VLAN on interface
+- "wr mem" on device
