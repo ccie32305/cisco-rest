@@ -1,8 +1,8 @@
 import sys
 import pexpect
 from flask import Flask
-switch_un = "cscworks"
-switch_pw = "kerner2"
+switch_un = "myuser"
+switch_pw = "mypass"
 
 def interfacechange(switch_un,switch_pw,switchname,fullinterface,command):
   try:
@@ -32,17 +32,17 @@ app = Flask(__name__)
 def api_v1():
     	return '{success : cisco-rest-api'
 
-@app.route('/api/v1/interfaceshutdown/<switchname>/<interface>/<port>/')
+@app.route('/api/v1/interface-shutdown/<switchname>/<interface>/<port>/')
 def interfaceshutdown(switchname,interface,port):
     fullinterface = interface + '/' + port
     return interfacechange(switch_un,switch_pw,switchname,fullinterface,'shut')
 
-@app.route('/api/v1/interfaceshutdown/<switchname>/<interface>/<subport>/<port>/')
+@app.route('/api/v1/interface-shutdown/<switchname>/<interface>/<subport>/<port>/')
 def interfaceshutdownlong(switchname,interface,subport,port):
     fullinterface = interface + '/' + subport + '/' + port
     return interfacechange(switch_un,switch_pw,switchname,fullinterface,'shut')
 
-@app.route('/api/v1/interfaceenable/<switchname>/<interface>/<subport>/<port>/')
+@app.route('/api/v1/interface-enable/<switchname>/<interface>/<subport>/<port>/')
 def interfaceenablelong(switchname,interface,subport,port):
     fullinterface = interface + '/' + subport + '/' + port
     return interfacechange(switch_un,switch_pw,switchname,fullinterface,'no shut')
