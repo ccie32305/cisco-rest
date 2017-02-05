@@ -32,3 +32,4 @@ v0.1 First version to provide a REST API for simple enable/shutdown of interface
 - Access management (specific devices for specific users)
 - Change VLAN on interface
 - "wr mem" on device
+- HTTPS
