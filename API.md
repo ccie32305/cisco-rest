@@ -28,7 +28,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ "success" : "deswitch01/GigabitEthernet0/1" }`
+    **Content:** `{"success": {"SwitchA" : "GigabitEthernet1/0/3"}}`
  
 * **Error Response:**
 
@@ -77,7 +77,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ "success" : "deswitch01/GigabitEthernet0/1" }`
+    **Content:** `{"success": {"SwitchA" : "GigabitEthernet1/0/3"}}`
  
 * **Error Response:**
 
