@@ -47,6 +47,11 @@ def interfaceenablelong(switchname,interface,subport,port):
     fullinterface = interface + '/' + subport + '/' + port
     return interfacechange(switch_un,switch_pw,switchname,fullinterface,'no shut')
 
+ @app.route('/api/v1/interface-enable/<switchname>/<interface>/<subport>/<port>/')
+def interfaceenablelong(switchname,interface,subport,port):
+    fullinterface = interface + '/' + subport + '/' + port
+    return interfacechange(switch_un,switch_pw,switchname,fullinterface,'no shut')
+  
 @app.errorhandler(404)
 def page_not_found(error):
     return "{error : no valid API call}", 404
