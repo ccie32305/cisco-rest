@@ -6,9 +6,9 @@
 
 * **URL**
 
-  /api/v1/interfaceenable/\<switchname\>/\<interface\>/\<port\>
+  /api/v1/interface-enable/\<switchname\>/\<interface\>/\<port\>
   
-  /api/v1/interfaceenable/\<switchname\>/\<interface\>/\<submodule\>/\<port\>
+  /api/v1/interface-enable/\<switchname\>/\<interface\>/\<submodule\>/\<port\>
   
 
 * **Method:**
@@ -55,9 +55,9 @@
 
 * **URL**
 
-  /api/v1/interfaceenable/\<switchname\>/\<interface\>/\<port\>
+  /api/v1/interface-shutdown/\<switchname\>/\<interface\>/\<port\>
   
-  /api/v1/interfaceenable/\<switchname\>/\<interface\>/\<submodule\>/\<port\>
+  /api/v1/interface-shutdown/\<switchname\>/\<interface\>/\<submodule\>/\<port\>
   
 
 * **Method:**
