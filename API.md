@@ -32,7 +32,7 @@
  
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
+  * **Code:** 200 <br />
     **Content:** `{ "error" : "system could not be reached" }`
 
 
@@ -81,7 +81,7 @@
  
 * **Error Response:**
 
-  * **Code:** 404 NOT FOUND <br />
+  * **Code:** 200 <br />
     **Content:** `{ "error" : "system could not be reached" }`
 
 
