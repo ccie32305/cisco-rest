@@ -33,7 +33,7 @@
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ "error" : "system could not be reached }`
+    **Content:** `{ "error" : "system could not be reached" }`
 
 
 * **Sample Call:**
@@ -82,7 +82,7 @@
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ "error" : "system could not be reached }`
+    **Content:** `{ "error" : "system could not be reached" }`
 
 
 * **Sample Call:**
